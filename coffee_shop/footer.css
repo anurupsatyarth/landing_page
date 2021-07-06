@@ -10,3 +10,34 @@ footer{
     padding:0 40px;
 }
 
+.links-container{
+    width: 220px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.footer-container{
+    display: flex;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 8px;
+    padding: 0 8px;
+}
+
+
+.links-container h3{
+    margin-bottom: 24px;
+}
+
+li{
+    color: rgba(0,0,0,.56);
+    cursor: pointer;
+}

@@ -182,3 +182,38 @@ section{
 }
 
 
+
+.more{
+    display: flex;
+    justify-content: center;
+    padding: 0 32px;
+    font-weight: 400;
+    
+    margin: 78px 32px;
+}
+
+.info1 span{
+
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.info2 span{
+    
+    max-width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Communities .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4e9e2;;
+    color: rgba(0,0,0,.87) ;
+    padding: 32px 48px;
+
+}
